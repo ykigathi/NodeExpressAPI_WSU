@@ -5,9 +5,9 @@ export default {
     database: {
       host: process.env.DB_HOST || 'localhost',
       port: process.env.DB_PORT || 27017,
-      dbName: process.env.DB_NAME || 'your_database_name',
-      username: process.env.DB_USERNAME || 'your_database_username',
-      password: process.env.DB_PASSWORD || 'your_database_password',
+      dbName: process.env.DB_NAME || 'wsu',
+      username: process.env.DB_USERNAME || 'root',
+      password: process.env.DB_PASSWORD || '',
     },
   
     // API keys and secret tokens
